@@ -1,0 +1,45 @@
+body{
+    background: #642B73;
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C6426E, #642B73);
+}
+.button{
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 20px 64px;
+    text-align: center;
+    text-decoration:none;
+    font-size 16px;
+    cursor: pointer;
+    border-radius:12px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+.resize{
+    font-size: 50px;
+}
+p{
+    color: #fff;
+    font-family: Arvo;
+    font-weight: bold;
+    text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+    line-height: 0.8em;
+    letter-spacing: 0.1em;
+    transform: scaleY(0.7);
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);
+    margin:0;
+    text-align: center;
+    font-size: 169px;
+}
+
